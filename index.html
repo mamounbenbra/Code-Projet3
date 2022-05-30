@@ -43,8 +43,7 @@
 }
 
 img{
-  max-width: 200px;
-  margin-top: 20%;
+  width: 500px;
 }
 
 footer {
@@ -81,11 +80,13 @@ footer {
 var total_material = 5;
 //var random_number = Math.floor((Math.random()*total_material));
 var material_leftside = new Array();
-material_leftside[0] = '<img src="1.png">';
-material_leftside[1] = '<img src="2.jpg">';
-material_leftside[2] = 'SPACING';
-material_leftside[3] = '<img src="3.gif">';
-material_leftside[4] = '<img src="https://upload.wikimedia.org/wikipedia/commons/7/73/PointerTrails.png">'
+material_leftside[0] = '<img src="https://res.cloudinary.com/mamounbenbra/image/upload/v1653847084/Screenshot_2022-05-29_at_18.43.07_bmtxe3.png">'
+material_leftside[1] = '<img src="https://res.cloudinary.com/mamounbenbra/image/upload/v1653847082/Screenshot_2022-05-29_at_18.42.26_terumk.png">'
+material_leftside[2] = '<img src="https://res.cloudinary.com/mamounbenbra/image/upload/v1653847081/Screenshot_2022-05-29_at_18.42.15_d9qr2h.png">'
+material_leftside[3] = '<img src="https://res.cloudinary.com/mamounbenbra/image/upload/v1653847080/Screenshot_2022-05-29_at_18.41.32_peus51.png">'
+material_leftside[4] = '<img src="https://res.cloudinary.com/mamounbenbra/image/upload/v1653847081/Screenshot_2022-05-29_at_18.42.03_gbsi6z.png">'
+material_leftside[5] = '<img src="https://res.cloudinary.com/mamounbenbra/image/upload/v1653847082/Screenshot_2022-05-29_at_18.42.12_ecajzc.png">'
+material_leftside[5] = '<img src="https://res.cloudinary.com/mamounbenbra/image/upload/v1653847083/Screenshot_2022-05-29_at_18.42.22_qce5cx.png">'
 
 
 function Random_LeftSide(){
@@ -103,11 +104,13 @@ var inter = setInterval(function() { Random_LeftSide(); }, 500);
 
 var total_material = 5;
 var material_rightside = new Array();
-material_rightside[0] = '<img src="1.png">';
-material_rightside[1] = '<img src="2.jpg">';
-material_rightside[2] = 'TIMING';
-material_rightside[3] = '<img src="3.gif">';
-material_rightside[4] = '<img src="https://upload.wikimedia.org/wikipedia/commons/7/73/PointerTrails.png">'
+material_rightside[0] = '<img src="https://res.cloudinary.com/mamounbenbra/image/upload/v1653847084/Screenshot_2022-05-29_at_18.43.11_lueyfe.png">'
+material_rightside[1] = '<img src="https://res.cloudinary.com/mamounbenbra/image/upload/v1653847084/Screenshot_2022-05-29_at_18.42.48_eixdcl.png">'
+material_rightside[2] = '<img src="https://res.cloudinary.com/mamounbenbra/image/upload/v1653847082/Screenshot_2022-05-29_at_18.42.40_yjqlqi.png">'
+material_rightside[3] = '<img src="https://res.cloudinary.com/mamounbenbra/image/upload/v1653847083/Screenshot_2022-05-29_at_18.42.37_uamanl.png">'
+material_rightside[4] = '<img src="https://res.cloudinary.com/mamounbenbra/image/upload/v1653847080/Screenshot_2022-05-29_at_18.41.40_g3wg77.png">'
+material_rightside[5] = '<img src="https://res.cloudinary.com/mamounbenbra/image/upload/v1653847081/Screenshot_2022-05-29_at_18.42.00_kuphku.png">'
+material_rightside[6] = '<img src="https://res.cloudinary.com/mamounbenbra/image/upload/v1653847081/Screenshot_2022-05-29_at_18.41.56_rxlhxz.png">'
 
 function Random_RightSide(){
 var random_number= Math.floor(Math.random()*material_rightside.length);
@@ -115,9 +118,10 @@ document.getElementById('material_right').innerHTML=material_rightside[random_nu
 
 }
 onload = function() { Random_RightSide(); }
-var inter = setInterval(function() { Random_RightSide(); }, 500);
+var inter = setInterval(function() { Random_RightSide(); }, 2500);
 
 </script>
 
 </body>
 </html>
+
